@@ -22,3 +22,11 @@ Runs `npm install`, useful whenever you'r working on a front-end project. I like
 **pull.sh**
 
 `Pulls` the latest changes for this branch from the repository. I like to put this in `post-checkout`, makes sure I always have the latest changes from remote in local branches.
+
+**artisan_migrate.sh**
+
+Runs `php artisan migrate`, I like to put this in `post_merge` to keep my database up-to-date.
+
+**composer_install.sh**
+
+Runs `composer install`, I like to put this in `post_merge` to keep my dependencies up-to-date.
